@@ -55,7 +55,7 @@ header {
     color: #F00;
     font-size: 88px;
     font-weight: 700;
-    margin:0;
+    margin: 0;
     padding-bottom: 48px;
 }
 
@@ -78,4 +78,53 @@ header {
 .discount-img {
     height: 500px;
     margin-bottom: 120px;
+}
+
+/* party section */
+.party-container {
+    display: flex;
+    background: linear-gradient(to right ,rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(assets/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    padding-left: 11%;
+    padding-right: 11%;
+    margin-bottom: 120px;
+}
+.party-section{
+    text-align: left;
+}
+.party-title {
+    color: #FFF;
+    text-align: left;
+    font-size: 64px;
+    font-weight: 900;
+    padding-bottom: 24px;
+    margin: 0;
+    padding-top: 22%;
+}
+
+.party-text {
+    color: lightgray;
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 48px;
+    margin: 0;
+    width: 95%;
+}
+
+.party-btn {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+}
+.party-image{
+    height: 80%;
+    right: 20%;
+    padding-top: 25%;
 }
