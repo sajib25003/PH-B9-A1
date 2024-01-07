@@ -1,3 +1,7 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
+
+/* Common shared styles */
 * {
     margin-left: 1.5%;
     margin-right: 1.5%;
@@ -17,6 +21,7 @@ header {
     background-size: 100% 100%;
     border-radius: 16px;
     height: 600px;
+    margin-bottom: 120px;
 }
 
 .header-text,
@@ -37,4 +42,40 @@ header {
     font-weight: 900;
     padding: 0 20%;
     margin: 0;
+}
+
+/* discount section */
+.discount-title,
+.discount-text,
+.discount-type {
+    font-family: Inter;
+}
+
+.discount-title {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin:0;
+    padding-bottom: 48px;
+}
+
+.discount-text {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.discount-type {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 48px;
+}
+
+.discount-img {
+    height: 500px;
+    margin-bottom: 120px;
 }
