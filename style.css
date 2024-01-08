@@ -337,3 +337,79 @@ header {
     margin: 0;
     padding: 10px;
 }
+.hover-img:hover .grid-img{
+    opacity: 0.8;
+}
+
+/* subscribe section */
+.subscribe-contaioner {
+    height: 600px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 120px;
+
+}
+
+.mail-icon {
+    height: 150px;
+    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.subscribe-title {
+    margin: 0;
+    color: black;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 22px;
+}
+
+.subscriber-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 20% 5%;
+}
+
+/* submit button part */
+.submit-btn {
+    display: grid;
+    grid-template-columns: 420px 150px;
+    gap: 0;
+    justify-content: center;
+}
+
+.txt-email {
+    border: none;
+    border-radius: 50px 0 0 50px;
+    height: 50px;
+    margin: 0;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+
+.btn-submit {
+    padding: 8px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    margin: 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn-submit:hover{
+    background-color: indianred;
+}
