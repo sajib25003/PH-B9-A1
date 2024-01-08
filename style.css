@@ -310,15 +310,53 @@ header {
     max-width: 1280px;
     margin-bottom: 120px;
 }
-.gift-box{
+
+.gift-box {
     position: relative;
     top: 10.5%;
     height: 530px;
 }
-.discount-circle{
+
+.discount-circle {
     position: relative;
     right: 50%;
     top: 10%;
+}
+
+.sale-text {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.sale-title {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+    padding-bottom: 28px;
+}
+
+.sale-title span {
+    color: red;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sale-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 64px;
+}
+
+.container-text {
+    margin: 0 15%;
 }
 
 
