@@ -229,9 +229,10 @@ header {
     margin: 0;
 }
 
-.coming-2024{
+.coming-2024 {
     padding-left: 5%;
 }
+
 .coming-2024-title {
     color: #F00;
     font-family: Inter;
@@ -242,8 +243,97 @@ header {
     padding-bottom: 16px;
     padding-top: 20%;
 }
-.coming-2024-img{
+
+.coming-2024-img {
     padding-top: 43px;
     display: block;
 }
 
+/* holiday section */
+.holiday-section {
+    height: 7000px;
+}
+
+.holiday-text {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.holiday-title {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+    padding-bottom: 28px;
+}
+
+.holiday-title span {
+    color: red;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 126px 64px 126px;
+}
+
+/* portfolio section */
+.portfolio-text,
+.portfolio-title,
+.portfolio-description {
+    text-align: left;
+    width: 60%;
+}
+
+.portfolio-text,
+.portfolio-description {
+    font-family: Inter;
+}
+
+.portfolio-text {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.portfolio-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    padding-bottom: 22px;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 48px;
+}
+
+.portfolio-images-container {
+    display: grid;
+    grid-template-columns: 424px 424px 424px;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.grid-img {
+    width: 420px;
+    height: 420px;
+    margin: 0;
+    padding: 10px;
+}
